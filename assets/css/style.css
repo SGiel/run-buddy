@@ -1,5 +1,6 @@
+/* The fonts are used by browsers in order of appearance. If browser doesn't use
+    Helvetic it then uses Arial, etc... */
 body {
-    /* more on this crazy alphanumberical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -10,6 +11,7 @@ header {
     background-color: #39a6b2;
 }
 
+/* box-sizing: content-size allows the boxes to be different sizes */
 * {
     margin: 0;
     padding: 0;
