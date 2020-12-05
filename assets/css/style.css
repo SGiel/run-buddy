@@ -18,13 +18,13 @@ header {
     box-sizing: border-box;
 }
 
-    header h1 {
+header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
     display: inline;
-    }
+}
 
 header a {
     text-decoration: none;
@@ -131,3 +131,29 @@ section {
 }
 /* Hero form styles end */
 /* HERO STYLES END */
+
+/*Styline What We Do */
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    /* padding top, right, bottom, left */
+    padding: 0 100px 20px 100px;
+    /* below helps reduce size of border-bottom */
+    display: inline-block;
+    border-bottom: 3px solid #fce138;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    /* below re-centers once shrink to 80%. Top and bottom margin 0 and browser calculates 
+    left and right and will do it's best to center */
+    margin: 0 auto;
+}
