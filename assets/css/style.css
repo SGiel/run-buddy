@@ -80,7 +80,7 @@ section {
     
 }
 
-/* HERO STYLE START */
+/* Hero styles start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover; 
@@ -151,7 +151,7 @@ section {
     padding: 10px 20px;
 }
 /* Hero form styles end */
-/* HERO STYLES END */
+/* Hero styles end */
 
 /* What We Do and What You Do Styles Start */
 /* .intro styles in What We Do */
@@ -247,7 +247,7 @@ section {
     color: #39a6b2;
     font-size: 18px;
 }
-/* What We Do and What You Do Styles End */
+/* What We Do and What You Do styles end */
 
 /* Trainers styles start */
 .trainers {
@@ -295,9 +295,23 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
-/* Trainer Styles End */
+/* Trainer styles end */
 
-/* REACH OUT STYLES START */
+/* Service Plans styles start */
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+/* Service Plans styles end */
+
+/* Reach Out styles start */
 .contact {
     background-color: #024e76;
 }
@@ -365,7 +379,7 @@ section {
 .flex-row {
     display: flex;
 }
-/* Reach Out Styles End */
+/* Reach Out styles End */
 
 /* MEDIA QUERIES MUST APPEAR AT BOTTOM AND IN THIS ORDER! */
 
